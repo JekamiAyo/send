@@ -80,9 +80,12 @@ class _DashBoardState extends State<DashBoard> {
                         Container(
                           height: 2,
                           width: 13,
-                          color: currentPage == 0
-                              ? const Color.fromARGB(255, 79, 121, 238)
-                              : Colors.white,
+                          decoration: BoxDecoration(
+                            color: currentPage == 0
+                                ? const Color.fromARGB(255, 79, 121, 238)
+                                : Colors.white,
+                            borderRadius: BorderRadius.circular(20),
+                          ),
                         ),
                       ],
                     ),
@@ -101,9 +104,12 @@ class _DashBoardState extends State<DashBoard> {
                         Container(
                           height: 2,
                           width: 13,
-                          color: currentPage == 1
-                              ? const Color.fromARGB(255, 79, 121, 238)
-                              : Colors.white,
+                          decoration: BoxDecoration(
+                            color: currentPage == 1
+                                ? const Color.fromARGB(255, 79, 121, 238)
+                                : Colors.white,
+                            borderRadius: BorderRadius.circular(20),
+                          ),
                         ),
                       ],
                     ),
@@ -119,15 +125,18 @@ class _DashBoardState extends State<DashBoard> {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Transform.rotate(
-                          angle: 1.55,
+                          angle: 1.57,
                           child: const Icon(Icons.compare_arrows_rounded),
                         ),
                         Container(
                           height: 2,
                           width: 13,
-                          color: currentPage == 2
-                              ? const Color.fromARGB(255, 79, 121, 238)
-                              : Colors.white,
+                          decoration: BoxDecoration(
+                            color: currentPage == 2
+                                ? const Color.fromARGB(255, 79, 121, 238)
+                                : Colors.white,
+                            borderRadius: BorderRadius.circular(20),
+                          ),
                         ),
                       ],
                     ),
@@ -146,9 +155,12 @@ class _DashBoardState extends State<DashBoard> {
                         Container(
                           height: 2,
                           width: 13,
-                          color: currentPage == 3
-                              ? const Color.fromARGB(255, 79, 121, 238)
-                              : Colors.white,
+                          decoration: BoxDecoration(
+                            color: currentPage == 3
+                                ? const Color.fromARGB(255, 79, 121, 238)
+                                : Colors.white,
+                            borderRadius: BorderRadius.circular(20),
+                          ),
                         ),
                       ],
                     ),
@@ -167,9 +179,12 @@ class _DashBoardState extends State<DashBoard> {
                         Container(
                           height: 2,
                           width: 13,
-                          color: currentPage == 4
-                              ? const Color.fromARGB(255, 79, 121, 238)
-                              : Colors.white,
+                          decoration: BoxDecoration(
+                            color: currentPage == 4
+                                ? const Color.fromARGB(255, 79, 121, 238)
+                                : Colors.white,
+                            borderRadius: BorderRadius.circular(20),
+                          ),
                         ),
                       ],
                     ),
