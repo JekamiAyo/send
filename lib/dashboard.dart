@@ -62,14 +62,14 @@ class _DashBoardState extends State<DashBoard> {
                 topRight: Radius.circular(20),
               ),
             ),
-            height: 70,
+            height: 90,
             child: Center(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   //home
                   IconButton(
-                    padding: const EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(20).copyWith(top: 10),
                     onPressed: () {
                       togglePages(0);
                     },
@@ -93,7 +93,7 @@ class _DashBoardState extends State<DashBoard> {
 
                   //wallet
                   IconButton(
-                    padding: const EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(20).copyWith(top: 10),
                     onPressed: () {
                       togglePages(1);
                     },
@@ -117,7 +117,7 @@ class _DashBoardState extends State<DashBoard> {
 
                   //send/transfer
                   IconButton(
-                    padding: const EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(20).copyWith(top: 10),
                     onPressed: () {
                       togglePages(2);
                     },
@@ -144,7 +144,7 @@ class _DashBoardState extends State<DashBoard> {
 
                   //review
                   IconButton(
-                    padding: const EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(20).copyWith(top: 10),
                     onPressed: () {
                       togglePages(3);
                     },
@@ -168,7 +168,7 @@ class _DashBoardState extends State<DashBoard> {
 
                   //account
                   IconButton(
-                    padding: const EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(20).copyWith(top: 10),
                     onPressed: () {
                       togglePages(4);
                     },
