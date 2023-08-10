@@ -1,16 +1,16 @@
-# sent
+# Send
 
 A new Flutter project.
 
-## Getting Started
+## Demo
+![IMG_3747](https://github.com/JekamiAyo/send/assets/76128913/c896bd42-5473-43db-9756-81dc99c568ed)
 
-This project is a starting point for a Flutter application.
+![IMG_3749](https://github.com/JekamiAyo/send/assets/76128913/591aa0be-db3e-46bf-aa9c-5758d9a1a0d3)
 
-A few resources to get you started if this is your first Flutter project:
+![IMG_3748](https://github.com/JekamiAyo/send/assets/76128913/3dda213f-d144-4263-aa47-d1bef3348ea9)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://github.com/JekamiAyo/send/assets/76128913/12f42aaa-bb95-4034-8498-f891ffc2046b
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+### Dribbble Link
+- https://dribbble.com/shots/22224502-Banking-Mobile-App-UI-Kit
