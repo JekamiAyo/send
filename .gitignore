@@ -45,4 +45,4 @@ app.*.map.json
 
 
 # to avoid any issue with owner of nft
-# /assets/images
+/assets/images
